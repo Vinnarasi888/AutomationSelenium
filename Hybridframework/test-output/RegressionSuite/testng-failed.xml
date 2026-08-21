@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="Log_003_VerifyInvalidPassword"/>
+          <include name="Log_002_VerifyInvalidPassword"/>
+          <include name="Log_005_VerifyValidLogin"/>
+          <include name="Log_001_VerifyInvalidUsername"/>
+          <include name="Log_004_VerifyInvalidPassword"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
