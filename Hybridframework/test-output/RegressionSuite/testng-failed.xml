@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegressionTests(failed)">
+    <classes>
+      <class name="tests.ProductSearchTest">
+        <methods>
+          <include name="Search_001_VerifySearchProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ProductSearchTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
